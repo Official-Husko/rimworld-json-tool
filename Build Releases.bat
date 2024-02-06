@@ -1,0 +1,1 @@
+conda activate ".\.env" && pyinstaller --onefile --icon "icon.ico" --console --name "RW-JSON-Tool" --upx-dir "Z:\Projects\Python\### UPX ###" main.py
