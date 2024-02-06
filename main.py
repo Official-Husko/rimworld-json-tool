@@ -56,3 +56,6 @@ for file in valid_files:
         print(f"Processed {file}")
     except Exception as e:
         print(f"Error processing {file}: {e}")
+        print("Please share this log with me on GitHub.")
+        with open("runtime.log", "a") as f:
+            f.write(f"Error processing {file}: {e}\n")
